@@ -36,5 +36,5 @@ unsetopt correct_all
 
 source $ZSH/oh-my-zsh.sh
 
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
